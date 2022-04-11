@@ -1,0 +1,17 @@
+[options]
+library = "GtkSource"
+version = "3.0"
+target_path = "."
+min_cfg_version = "3.0"
+work_mode = "sys"
+girs_directories = ["../../gir-files/"]
+
+external_libraries = [
+    "Cairo",
+    "Gdk",
+    "GdkPixbuf",
+    "Gio",
+    "GLib",
+    "GObject",
+    "Gtk",
+]
